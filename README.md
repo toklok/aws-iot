@@ -8,7 +8,7 @@ Join me on this adventure as I set up and deploy a hospital call light system us
 
 I will talk about some technologies I will use first, because this will be the biggest hurdle in my opinion and it's my favorite step.  I have to use Lambda which will be event driven, and I'm totally going to use [JAWS](https://github.com/jaws-framework/JAWS "JAWS: The Serverless Application Framework").  I will use Node.js and I want to utilize Docker and learn more about testing with Docker.  The Amazon services are going to be updated from time to time as I work through the project and stay tuned for me to lock everything down.
 
-The hardware?  I want to have a [piezo buzzer](http://www.hometrainingtools.com/buzzer-piezo-electric-dc?fee=2&fep=1229&gclid=CjwKEAiA3_axBRD5qKDc__XdqQ0SJAC6lecApIA6a7Hc-FCWLZuX1eR0WsLM6uO9ZqtezgJE-NOgYxoCKpLw_wcB), [usb powered speakers](http://www.adafruit.com/products/1363?gclid=CjwKEAiA3_axBRD5qKDc__XdqQ0SJAC6lecAB3moN0ixWX0-HFwIDUlaCD0YBJSjjd9ZGoAr6mcLPhoCeljw_wcB), assorted light LED light bulbs.  I will also used a scale down version on a plywood piece of wood, technology is awesome!   
+The hardware?  I want to have a [piezo buzzer](http://www.hometrainingtools.com/buzzer-piezo-electric-dc?fee=2&fep=1229&gclid=CjwKEAiA3_axBRD5qKDc__XdqQ0SJAC6lecApIA6a7Hc-FCWLZuX1eR0WsLM6uO9ZqtezgJE-NOgYxoCKpLw_wcB), [usb powered speakers](http://www.adafruit.com/products/1363?gclid=CjwKEAiA3_axBRD5qKDc__XdqQ0SJAC6lecAB3moN0ixWX0-HFwIDUlaCD0YBJSjjd9ZGoAr6mcLPhoCeljw_wcB), assorted light LED light bulbs.  I will also make the scaled down version on a plywood piece of wood, technology is awesome!   
 
 Here is my idea
 ===============
