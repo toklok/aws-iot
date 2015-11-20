@@ -1,0 +1,22 @@
+{
+  "intents": [
+    {
+      "intent": "GetHelp",
+      "slots": [
+        {
+          "name": "Category",
+          "type": "LIST_OF_DEPARTMENTS"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
