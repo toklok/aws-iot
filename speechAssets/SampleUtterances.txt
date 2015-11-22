@@ -1,3 +1,0 @@
-GetHelp get {Department}
-GetHelp help {Department}
-GetHelp I need {Department}

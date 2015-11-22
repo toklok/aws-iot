@@ -1,15 +1,17 @@
-const AlexaSkill = require('./AlexaSkill');
+'use strict';
 
-const APP_ID = undefined; //replace with Alexa key
+var AlexaSkill = require('./AlexaSkill');
+
+var APP_ID = undefined; //replace with Alexa key
 
 
 //Call Light is a child of Alexa Skill.
 
-let CallLight = function () {
+var CallLight = function () {
     AlexaSkill.call(this, APP_ID);
 };
 
-//Extend AlexaSkill
+//Classical inheritence
 
 CallLight.prototype = Object.create(AlexaSkill.prototype);
 CallLight.prototype.constructor = CallLight;
