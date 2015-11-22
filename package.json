@@ -1,0 +1,22 @@
+{
+  "name": "aws-iot",
+  "version": "1.0.0",
+  "description": "Call light system for hospitals or nursing homes utilizing the cloud (Amazon Web services)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/toklok/aws-iot.git"
+  },
+  "keywords": [
+    "cloud"
+  ],
+  "author": "Joseph Curtis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toklok/aws-iot/issues"
+  },
+  "homepage": "https://github.com/toklok/aws-iot"
+}
