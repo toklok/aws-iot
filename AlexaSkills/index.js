@@ -11,6 +11,9 @@ let CallLight = function () {
 
 //Extend AlexaSkill
 
+CallLight.prototype = Object.create(AlexaSkill.prototype);
+CallLight.prototype.constructor = CallLight;
+
 CallLight.prototype.eventHandlers.onSessionStarted = function (sessionStorageRequest, session) {
     console.log("CallLight onSessionStarted requestId: " + sessionStartedRequest.requestId
         + ", sessionId: " + session.sessionId);
