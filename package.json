@@ -21,5 +21,25 @@
   "bugs": {
     "url": "https://github.com/toklok/aws-iot/issues"
   },
-  "homepage": "https://github.com/toklok/aws-iot"
+  "homepage": "https://github.com/toklok/aws-iot",
+  "dependencies": {
+    "aws-iot-device-sdk": "^1.0.9",
+    "aws-sdk": "^2.2.20",
+    "redux": "^3.0.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.1.2",
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-syntax-flow": "^6.1.18",
+    "babel-plugin-transform-flow-strip-types": "^6.1.18",
+    "babel-preset-es2015": "^6.1.18",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.1",
+    "gulp-postcss": "^6.0.1",
+    "json-loader": "^0.5.4",
+    "mocha": "^2.3.4",
+    "postcss-simple-vars": "^1.1.0",
+    "webpack": "^1.12.9"
+  }
 }
