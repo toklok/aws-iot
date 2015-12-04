@@ -4,17 +4,20 @@
   "description": "Call light system for hospitals or nursing homes utilizing the cloud (Amazon Web services)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack --watch",
+    "test": "mocha --compilers js:babel-core/register --recursive tests/"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/toklok/aws-iot.git"
   },
   "keywords": [
-    "cloud"
+    "cloud",
+    "aws",
+    "lambda"
   ],
   "author": "Joseph Curtis",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/toklok/aws-iot/issues"
   },
