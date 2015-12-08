@@ -1,5 +1,8 @@
 var path = require("path");
 var fs = require("fs");
+var autoprefixer = require('autoprefixer');
+var postcss = require('precss');
+
 
 module.exports = {
 
@@ -30,14 +33,17 @@ module.exports = {
         loaders: [
 
             {
+                test: /\.css$/,
+                loader: "style-loader!css-loader!postcss-loader"
+            },
+
+            {
                 test: /\.js$/,
                 exclude: /node_modules/,
                 loader: 'babel',
-                query: {
-                    presets: ['es2015'],
-                    plugins: ['syntax-flow', 'transform-flow-strip-types']
-                }
-
+                query: JSON.parse(
+                    fs.readFileSync(path.join(__dirname, ".babelrc"), {encoding: "utf8"})
+                )
             },
 
             {
@@ -45,6 +51,8 @@ module.exports = {
                 loader: 'json'
             }
         ]
+    },
+    postcss: function () {
+        return [autoprefixer, precss];
     }
-
 };
