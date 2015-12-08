@@ -14,7 +14,7 @@ module.exports = {
             );
             return entry;
         })
-    .reduce((finalObject, entry) => Object.assign(finalObject, entry), {}),
+        .reduce((finalObject, entry) => Object.assign(finalObject, entry), {}),
 
     output: {
         path: path.join(__dirname, "dist"),
@@ -26,7 +26,9 @@ module.exports = {
     target: "node",
 
     module: {
+
         loaders: [
+
             {
                 test: /\.js$/,
                 exclude: /node_modules/,

@@ -3,3 +3,12 @@
 node_modules/\nbower_components/
 #ignore dist files
 dist/
+
+#obviously ignore my certificates.
+
+rootCA.pem
+cert.pem
+policy-document.txt
+52ae1f5de3-certificate.pem.crt
+52ae1f5de3-private.pem.key
+privateKey.pem
