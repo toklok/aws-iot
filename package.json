@@ -1,11 +1,11 @@
 {
   "name": "aws-iot",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "Call light system for hospitals or nursing homes utilizing the cloud (Amazon Web services)",
-  "main": "index.js",
+  "main": "N/A",
   "scripts": {
-    "start": "webpack --watch",
-    "lint": "eslint lambdas/test.js",
+    "aws-es6": "webpack --config webpack-es6lambdas.config.js --watch",
+    "dev-server": "webpack --config webpack-front-end.config.js",
     "test": "mocha --compilers js:babel-core/register --recursive tests/"
   },
   "repository": {
@@ -13,6 +13,10 @@
     "url": "https://github.com/toklok/aws-iot.git"
   },
   "keywords": [
+    "webpack",
+    "javascript iot",
+    "es2015",
+    "amazon web services",
     "cloud",
     "aws",
     "lambda"
@@ -27,6 +31,7 @@
     "aws-iot-device-sdk": "^1.0.9",
     "aws-sdk": "^2.2.20",
     "extract-text-webpack-plugin": "^0.9.1",
+    "react": "^0.14.3",
     "redux": "^3.0.4"
   },
   "devDependencies": {
@@ -40,6 +45,9 @@
     "json-loader": "^0.5.4",
     "mocha": "^2.3.4",
     "node-libs-browser": "^0.5.3",
+    "babel-preset-react": "^6.3.13",
+    "npm": "^3.5.1",
+    "postcss-js": "^0.1.0",
     "postcss-loader": "^0.8.0",
     "postcss-simple-vars": "^1.1.0",
     "precss": "^1.3.0",
